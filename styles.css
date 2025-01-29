@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 .about-img {
-    width: 500px; /* Resize the image to 300px width */
+    width: 200px; /* Resize the image to 300px width */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
 }
