@@ -5,25 +5,50 @@
     box-sizing: border-box;
 }
 
-/* Body Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Main container to hold left sidebar, content, and right sidebar */
+.main-container {
+    display: flex;
+    justify-content: space-between; /* Space between the columns */
 }
+
+/* Left Sidebar */
+.sidebar-left {
+    width: 1000px; /* Set width of left sidebar */
+    background-color: #f2f2f2;
+    color: #3e626f;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px; 
+}
+
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #3e626f;
     color: white;
-    padding: 20px;
+    font-size: 24px;
+    padding: 20px 20px;
     text-align: center;
+}
+
+#home {
+    padding-top: 40px; /* Adjust the value as needed */
+}
+
+/* Body Styles */
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #1b3841;
+    color: #e1e1e1;
+    font-size: 16px;
+    padding-left: 10px;   /* Add left padding */
+    padding-right: 50px;  /* Add right padding */
 }
 
 /* Navigation */
 nav ul {
     list-style: none;
-    background-color: #000000;
+    background-color: #3b7381;
     text-align: center;
     padding: 10px 0;
 }
@@ -43,20 +68,56 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+section {
+    margin-bottom: 40px; /* Add space between sections */
+}
+
 /* Gallery Section */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Grid with flexible columns */
     gap: 15px;
     padding: 20px;
     justify-items: center;
 }
 
-.gallery img {
+/* Each figure (image + caption pair) */
+.gallery-item {
+    display: flex;
+    flex-direction: column;  /* Ensures the caption is below the image */
+    align-items: center;     /* Centers the image and caption */
+    text-align: center;      /* Ensures the caption is centered */
+    width: 100%;             /* Ensures the container takes full width */
+    margin-bottom: 20px;     /* Adds space between items */
+}
+
+/* Image styles */
+.gallery-item img {
+    width: 100%;              /* Make image responsive */
+    height: auto;             /* Keep aspect ratio */
+    max-width: none;         /* Set a max-width for the images */
+    border-radius: 8px;       /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow to images */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: rgb(111, 39, 39);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
     width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+}
+
+section {
+    margin-bottom: 60px; /* Add space between sections */
+}
+
+a {
+    color: #ccaa00; /* Change to your desired color */
+    text-decoration: none; /* Optional: removes the underline */
 }
 
 .about-img {
@@ -65,14 +126,7 @@ nav ul li a:hover {
     border-radius: 8px; /* Optional: add rounded corners */
 }
 
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+nav ul li a:hover {
+    background-color: #ccaa00; /* Change this to the color you want */
+    color: white; /* Change text color when hovering */
 }

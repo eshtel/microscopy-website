@@ -10,49 +10,121 @@
 
 <header>
     <h1>Microbial world</h1>
-    <p>Explore the microscopic world</p>
+    <p>Rainbowbacteria</p>
 </header>
 
 <nav>
     <ul>
         <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-<section id="home">
-    <h2>Home</h2>
-    <p>I spend most days in a dark microscopy room, sometimes I get nice images. Here they are.</p>
-</section>
-
-<section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-        <img src="images/image1.jpg" alt="Microscopy Image 1">
-        <img src="images/image2.jpg" alt="Microscopy Image 2">
-        <img src="images/image3.jpg" alt="Microscopy Image 3">
-        <img src="images/image4.jpg" alt="Microscopy Image 4">
-    </div>
-</section>
-
-<section id="about">
-    <h2>About</h2>
-    <p>I am a Ph.D. student at the University of Lausanne, Switzerland. I study spatial pattern formation in microbial communities.</p>
-    <div class="about">
-        <img src="images/microscopy-about.jpg" alt="About1" class="about-img">
-    </div>
-</section>
+<div class="main-container"> <!-- New container for layout -->
+    <aside class="sidebar-left">
+        <!-- Sidebar content for the left column -->
+        <h3>Left Sidebar</h3>
+        <ul>
+            <li>something</li>
+        </ul>
+    </aside>
 
 
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: estelle.pignon@unil.ch</p>
-</section>
+    
+    <main class="content">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Discover the beauty of a hidden microscopic world. All the following images were created in a laboratory, using a microscope and fluorescent bacteria. They come from real-life science experiments conducted at the University of Lausanne, Switzerland.</p>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <p>From Bench to Exhibition: When Science Meets Art <br>
+
+                I’m thrilled to share that my bacteria have made their way from the lab to an exhibition!
+                <br>
+                Shapes: Patterns in Art and Science, where structures from mathematics, materials science, and biology come alive. Opening this Friday!
+                
+                17.1.–9.3.2025
+                EPFL Pavilions, Pavilion A: <a href="https://epfl-pavilions.ch/en/exhibitions/shapes" target="_blank">Shape exhibition website</a>.
+            </p>
+            <figure class="gallery-item">
+                <img src="images/ShapesPavillonEPFL_Estelle.jpeg" alt="NewsShape" class="image-news" style="max-width: 500px; height: auto;">
+                <figcaption class="image-caption"><b>Shapes exhibition is open!</b><br></figcaption>
+            </figure>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Dive into the fascinating world of bacterial communities, meaning groups of bacteria that co-exist and grow together...</p>
+            <div class="gallery">
+                <figure class="gallery-item">
+                    <img src="images/GrowingTogetherPIGNON_Estelle.jpg" alt="GrowingTogether" class="image-1" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Growing together</b><br>This image is a time-lapse of a co-culture of Escherichia coli exchanging amino acids. It reveals a bacterial community where two of its members – one in yellow, the other in blue – unite to grow together. Through a three-step growing process (days 1, 3, and 6, from left to right), their relationship evolves, nourished by a vital exchange of nutrients. Each bacterium plays a unique role, producing what the other one consumes. Their metabolic exchanges create delicate forms, demonstrating great harmony. Without this cooperation, neither one can survive. Together, they build a fragile but essential network whereby each shared molecule is key to their survival.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/AGiftOFSurvival_PIGNONEstelle.jpg" alt="AGiftOfSurvival" class="image-2" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>A Gift of Survival</b><br>This image illustrates a bacterial community of Escherichia coli within an environment that contains a mortal antibiotic, ampicillin. To resist this molecule, the bacteria need a specific gene. The image shows in particular the transfer of the resistant gene to ampicillin. A member of the community, in blue, owns half of that gene. The yellow one owns the other half. The balance of this relationship relies on the blue bacterium’s capacity to transfer that DNA fragment to its neighbour. Once received, the yellow bacterium is able to build a complete gene, thus becoming resistant to the antibiotic and expanding in the environment. By doing so, the yellow bacteria degrade the antibiotic surrounding them, allowing the blue bacteria to survive. The image on the left shows the blue bacteria only, while the one on the right shows the yellow bacteria. The central image is a superimposition of both.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/PIGNON_Estelle_Microbial-Ice.jpg" alt="Microbial-Ice" class="image-3" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Microbial Ice</b><br>In the depths of the microscopic sight, A microbial song, a symphony of light. Two bacteria organised like crystals in the snow, Exchanging metabolites, a dance only they know. They whisper secrets in a biochemical song, Invisible threads, where they both belong. To flourish together, in a world so small, Invisible unity, a microscopic protocol. In this tiny world where their stories entwine, They teach us a lesson, a truth so divine. That unity and sharing, in the tiniest of space, Can create a masterpiece, a microbial embrace.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/MicrobialEarth_PIGNONEstelle.jpg" alt="MicrobialEarth" class="image-4" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Microbial Earth</b><br>This image shows a microbial community composed of two bacteria attaching together. They are growing in a microfluidic chip—a microscopic chamber that allows us to observe them as they grow. This image illustrates that there is a microscopic world, maybe resembling ours, hidden in plain sight.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/EclipseInaPetriDish_EstellePIGNON.jpg" alt="Eclipse" class="image-5" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Eclipse in a petri dish</b><br>This image shows a population of two synthetic bacterial strains growing together on an agar plate. The pattern that they form relies on their engineered metabolic interactions. That day, I imaged a lot of replicates and all of them looked very similar, however, this colony was slightly different, and it looked like a burning sun! I decided to play around with it and created this image to represent a solar eclipse.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/EarlyChristmas.png" alt="Christmas" class="image-6" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Early Christmas</b><br>This image represents layers of cells growing in a microfluidic chamber where cells attach to each other.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/image2.jpg" alt="Brain1" class="image-7" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Hemisphere1</b><br>caption.</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/image1.jpg" alt="Brain2" class="image-8" style="max-width: 600px; height: auto;">
+                    <figcaption class="image-caption"><b>Hemisphere2</b><br>caption.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>I am a Ph.D. student at the University of Lausanne, Switzerland. I study spatial pattern formation in microbial communities.</p>
+            <div class="about">
+                <img src="images/microscopy-about.jpg" alt="Shapes" class="about-img">
+                <figcaption class="image-caption"> <b>Opening Shapes exhibition</b> <br>My work is featured as part of the exhibition "Shapes - patterns in art and science" in Pavillon A at EPFL. <br>Visit it for free! Open until the 9th of March 2025: <a href="https://epfl-pavilions.ch/en/exhibitions/shapes" target="_blank">Shape exhibition website</a>. </figcaption>
+                <img src="images/mt180_2022-2686.jpg" alt="MT180" class="about-img">
+                <figcaption class="image-caption"> <b>Ma thèse en 180 secondes</b> <br> I participated to the competition "My thesis in 180 seconds" and I explained my thesis on stage in exactly 180 seconds. <br>Watch it here (in French) : <a href="https://www.youtube.com/watch?v=MIASTGNwRMU<br></figcaption" targer"_blank>Youtube video MT180s</a>
+        
+            </div>
+        </section>
+        
+        
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: estelle.pignon@unil.ch</p>
+        </section>
+    </main>
 
 
 <script src="scripts.js"></script> <!-- This links to your JS file -->
+
 </body>
 </html>
