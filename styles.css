@@ -12,10 +12,6 @@
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 392c9992c1c39bce69b531ab8316bdff30850885
 /* Header */
 header {
     background-color: #3e626f;
@@ -125,47 +121,6 @@ nav ul li a:hover {
     color: white; /* Change text color when hovering */
 }
 
-<<<<<<< HEAD
-
-/* Styles for larger screens (desktops) */
-@media (min-width: 1024px) {
-    body {
-        background-color: #1b3841;
-    }
-    .desktop-only {
-      display: block;
-    }
-    .mobile-only {
-      display: none;
-    }
-  }
-  
-  /* Styles for smaller screens (phones) */
-  @media (max-width: 768px) {
-    body {
-        background-color: #1b3841;
-    }
-    .desktop-only {
-      display: none;
-    }
-    .mobile-only {
-      display: block;
-    }
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  }
-  
-=======
 img {
     pointer-events: none;
     -webkit-user-drag: none;
@@ -173,4 +128,3 @@ img {
     -webkit-user-select: none;
     user-select: none;
 }
->>>>>>> 392c9992c1c39bce69b531ab8316bdff30850885
