@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Microbial World</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a> | 
-      <a href="about.html">About</a>
-    </nav>
-  </header>
-  
-  <div class="about-content">
-    <h1>About Us</h1>
-    <p>During my Ph.D. I have done some science communication and outreach activities, mostly thanks to my microscopy images.</p>
-    
-    <img src="images/microscopy-about.jpg" alt="Microscopy Image" class="about-image">
-    
-    <p>I am dedicated to showcasing the beauty and complexity of life at the microscopic level. Stay tuned for more updates!</p>
-  </div>
 
-  <footer>
-    <p>&copy; 2025 Microscopy Website</p>
-  </footer>
+<header>
+  <h1 class="title-animated">Microbial World</h1>
+  <p>Rainbowbacteria. by Estelle</p>
+</header>
+
+<nav>
+    <button id="theme-toggle" aria-label="Toggle light/dark mode"></button>
+    <ul>
+        <li><a href="index.html" class="active">Microbial Art</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="scicom.html">Science Communication</a></li>
+    </ul>
+</nav>
+
+<main class="content">
+    <section id="about">
+        <h2>About</h2>
+        <p>I did my Ph.D. at the University of Lausanne, Switzerland. I studied spatial pattern formation in microbial communities.</p>
+        <div class="about">
+            <img src="images/microscopy-about.jpg" alt="Shapes" class="about-img">
+            <figcaption class="image-caption"><b>Opening Shapes exhibition</b><br>My work was featured as part of the exhibition "Shapes - patterns in art and science" in Pavillon A at EPFL.<br>Visit it online here: <a href="https://epfl-pavilions.ch/en/exhibitions/shapes" target="_blank">Shape exhibition website</a>.</figcaption>
+
+            <img src="images/mt180_2022-2686.jpg" alt="MT180" class="about-img">
+            <figcaption class="image-caption"><b>Ma thèse en 180 secondes</b><br>I participated in "My thesis in 180 seconds" and explained my thesis on stage in exactly 180 seconds.<br>Watch it here (in French): <a href="https://www.youtube.com/watch?v=MIASTGNwRMU" target="_blank">Youtube video MT180s</a></figcaption>
+        </div>
+    </section>
+</main>
+
+<main class="content">
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: eepignon (at) gmail.com</p>
+    </section>
+</main>
+
+<script src="scripts.js"></script>
+<div id="lens-transition"></div>
+
 </body>
 </html>
